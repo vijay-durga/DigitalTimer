@@ -1,0 +1,125 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.digitalTimer-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 18px;
+  padding-right: 25px;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.runningTimer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.time-container {
+  background-color: #ffffff;
+  border-radius: 100px;
+  height: 130px;
+  width: 130px;
+  margin-left: 39px;
+}
+.running-time {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #00d9f5;
+  text-align: center;
+}
+.description {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 17px;
+  text-align: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+}
+.timer-controller-container {
+  display: flex;
+}
+.timer-controller-btn {
+  background-color: transparent;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+}
+.timer-controller-icon {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+.timer-controller-label {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 7px;
+}
+.about {
+  color: #1e293b;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 460;
+  padding-left: 18px;
+}
+.container3 {
+  display: flex;
+  padding-left: 18px;
+}
+.sign-button {
+  background-color: transparent;
+  border-style: none;
+  color: #0f172a;
+  font-size: 33px;
+  font-weight: bold;
+}
+.time-setter-container {
+  height: 33px;
+  width: 60px;
+  background-image: linear-gradient(to right, #33ffad, #00d9f5);
+  border-radius: 5px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.time-setter {
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 20px;
+}
